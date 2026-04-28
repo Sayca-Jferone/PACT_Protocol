@@ -18,7 +18,7 @@
 
 **Sur quoi ?** -> A votre convenance, à partir d'un certain degré de complexité de votre sujet/projet. Dépend surtout de votre performance de développement complexe sans protocole. 
 
-**Pourquoi ?** -> J'ai une mémoire de travail assez limitée, ce qui m'oblige à déconstruire les problèmes et détecter les incohérences des sujets avant de les découvrir le nez dans le code.
+**Pourquoi ?** -> J'estime que ma mémoire de travail limitée m'impose de déconstruire les problèmes et détecter les incohérences des sujets avant de les découvrir le nez dans le code.
 
 1. **Réduire le temps de travail**, la fatigue du développeur par l'entropie `Mental<->Concept<->Produit`.
 2. **Renforcer la cohérence** du système avec une remontée des debugs en entonnoir `I<-II<-III`.
