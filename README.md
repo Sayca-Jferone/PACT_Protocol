@@ -4,7 +4,7 @@
 
 #### Version : Framework perso v0.5 (27/04/2026)
 
-**Objet :** Norme simple de production en 3 plans distincts. Testé en dev solo, duo et trio.
+### Utilisation : Conception, planification, implémentation de logiciels & sys.agentiques
 
 ## Pour qui ?
 
