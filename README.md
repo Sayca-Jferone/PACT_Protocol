@@ -1,24 +1,24 @@
-## PACT v0.5 - Protocole d'Arch. système par Contrats Typés
+## Protocole d'Arch. système par Contrats Typés (PACT)
 
 #### Auteur : Sayca (Jferone)
 
-#### Version : Framework personnel v0.5 - 27/04/2026
+#### Version : Framework perso v0.5 (27/04/2026)
 
-**Objet :** Norme de développement logiciel en 3 plans. Testé seul jusque 3 devs.
+**Objet :** Norme simple de production en 3 plans distincts. Testé en dev solo, duo et trio.
 
 ## Pour qui ?
 
-- **Étudiants 42** : pour structurer un projet avant de coder, pour défendre proprement en soutenance, pour produire un rendu lisible.
+- **Étudiants 42** : sujets denses, minimum Milestone 2 à 3. Structurer un projet solide, debugs et feedbacks plus rapides, défendre proprement en soutenance, produire un rendu lisible.
 
-- **Ingénieurs logiciels** : pour les projets en solo ou en petite équipe (1 à 5 personnes), où l'architecture émergente devient vite illisible.
+- **Ingénieurs logiciels** : pour les projets en solo ou en petite équipe (1 à 5 personnes), **où l'architecture émergente devient vite illisible**.
 
-- **Tout projet de conception** : le protocole est volontairement agnostique au langage et au domaine. Sa logique (problème, système, produit) tient pour de l'ingénierie globale autant que logicielle.
+- **Tout projet de conception** : le protocole est volontairement agnostique au langage et au domaine. Sa logique (problème, système, produit) sert pour de l'ingénierie globale autant que logicielle.
 
 # Objectif
 
 **Sur quoi ?** -> A votre convenance, à partir d'un certain degré de complexité de votre sujet/projet. Dépend surtout de votre performance de développement complexe sans protocole. 
 
-**Pourquoi ?** -> J'ai une mémoire de travail très limitée, ce qui m'oblige à externaliser mes schémas mentaux pour maintenir une performance solide et équivalente à mes pairs.
+**Pourquoi ?** -> J'ai une mémoire de travail assez limitée, ce qui m'oblige à déconstruire les problèmes et détecter les incohérences des sujets avant de les découvrir le nez dans le code.
 
 1. **Réduire le temps de travail**, la fatigue du développeur par l'entropie `Mental<->Concept<->Produit`.
 2. **Renforcer la cohérence** du système avec une remontée des debugs en entonnoir `I<-II<-III`.
