@@ -57,9 +57,9 @@ Si le client change souvent d'avis, si la version d'un système par conception d
 ```markdown
 ### `src/file.format`
 
-> Covers: M-02, B-14, O-2	# (Option: Si `2-SYSTEM.md` réfère directement les points de `1-SYNTHESIS.md`. Demande plus d'efforts.)
+> Covers: M-02, B-14, O-2   ((OPTIONNEL))
 
-> Author: jferone [resp], patoche [contrib], ...	# (Option: S'il s'agit d'un projet multi-devs)
+> Author: jferone [resp], patoche [contrib]   ((OPTIONNEL))
 
 | Champ | Contenu |
 |---|---|
@@ -71,7 +71,7 @@ Si le client change souvent d'avis, si la version d'un système par conception d
 | **Errors** | Chaque mode d'échec, son déclencheur, son comportement. |
 ```
 
-Sortie : `2-SYSTEM.md`. Un tableau par bloc fichier/logique, avec possibilité d'étendre un bloc en sous-parties à votre volonté, si estimé correct.
+Sortie : `2-SYSTEM.md`. Un tableau de cette forme par bloc-fichier, possible de l'étendre en sous-parties selon votre volonté, si utile.
 
 **Règle : pas de code tant que le bloc BIOPGE concerné n'est pas défini. Même défaillant, on peut sortir du code pour corriger la logique BIOPGE, et revenir.**
 
