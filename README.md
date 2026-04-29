@@ -8,15 +8,15 @@
 
 ## Pour qui ?
 
-- **Étudiants 42** : Manque d'information sur l'instant T. Chaque sujet est une Recherche. Minimum Milestone 2 à 3. Structurer un projet solide, debugs et feedbacks plus rapides, défendre proprement en soutenance, produire un rendu lisible.
-
-- **Ingénieurs logiciels** : même au-delà de la maîtrise et de l'expérience, les projets en solo ou en petite équipe (1 à 5 personnes) profitent d'un pipeline qui rogne le temps de Recherche en profitant une **architecture émergente, héritable et lisible**.
-
-- **Tout projet de conception** : le protocole est volontairement agnostique au langage de code produit, et au domaine. Sa logique (problème -> système -> produit) sert pour de l'ingénierie globale autant que logicielle.
+|  |  |
+|---|---|
+| Étudiants 42 | **VOTRE architecture**, pas celle d'un LLM lambda : c'est notre force, pas de vibe code, en vitesse accélérée. La densité des Phases I/II dépend de la complexité de votre sujet. |
+| Ingénieurs logiciels | Au-delà de vos maîtrises et expériences, vos projets en solo ou en petite équipe (1 à 5 pax) profitent d'un pipeline qui contracte I/II/III en une **architecture émergente, héritable et lisible**. |
+| Conception générale | Ce pipeline est volontairement agnostique au langage et au domaine. Sa logique sert pour de l'ingénierie globale, à expérimenter dans d'autres domaines que le logiciel. |
 
 # Objectif
 
-**Sur quoi ?** -> A votre convenance, à partir d'un certain degré de complexité de votre sujet/projet. Dépend surtout de votre performance de développement complexe sans protocole. 
+**Sur quoi ?** -> **Tous vos sujets. Pas d'over-engineering :** Un petit programme demandera quelques minutes de Phases I & II. Pour les plus complexes, on parle de jours, semaines ou mois.
 
 **Pourquoi ?** -> J'estime que ma mémoire de travail limitée m'impose de déconstruire les problèmes et détecter les incohérences des sujets avant de les découvrir le nez dans le code.
 
