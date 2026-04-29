@@ -8,7 +8,6 @@
 
 ## Pour qui ?
 
-|  |  |
 |---|---|
 | Étudiants 42 | **VOTRE architecture**, pas celle d'un LLM lambda : c'est notre force, pas de vibe code, en vitesse accélérée. La densité des Phases I/II dépend de la complexité de votre sujet. |
 | Ingénieurs logiciels | Au-delà de vos maîtrises et expériences, vos projets en solo ou en petite équipe (1 à 5 pax) profitent d'un pipeline qui contracte I/II/III en une **architecture émergente, héritable et lisible**. |
