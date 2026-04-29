@@ -1,18 +1,18 @@
-## Protocole d'Arch. système par Contrats Typés (PACT)
+## Pipeline d'Architecture par Conception Tripartite (PACT)
 
 #### Auteur : Sayca (Jferone)
 
-#### Version : Framework perso v0.5 (27/04/2026)
+#### Version : v0.51 (27/04/2026 - Usage perso intensif)
 
-### Utilisation : Conception, planification, implémentation de logiciels & sys.agentiques
+### Utilisation : Construire des logiciels sur des problèmes/sujets en apprentissage ou non-maîtrisés
 
 ## Pour qui ?
 
-- **Étudiants 42** : sujets denses, minimum Milestone 2 à 3. Structurer un projet solide, debugs et feedbacks plus rapides, défendre proprement en soutenance, produire un rendu lisible.
+- **Étudiants 42** : Manque d'information sur l'instant T. Chaque sujet est une Recherche. Minimum Milestone 2 à 3. Structurer un projet solide, debugs et feedbacks plus rapides, défendre proprement en soutenance, produire un rendu lisible.
 
-- **Ingénieurs logiciels** : pour les projets en solo ou en petite équipe (1 à 5 personnes), **où l'architecture émergente devient vite illisible**.
+- **Ingénieurs logiciels** : même au-delà de la maîtrise et de l'expérience, les projets en solo ou en petite équipe (1 à 5 personnes) profitent d'un pipeline qui rogne le temps de Recherche en profitant une **architecture émergente, héritable et lisible**.
 
-- **Tout projet de conception** : le protocole est volontairement agnostique au langage et au domaine. Sa logique (problème, système, produit) sert pour de l'ingénierie globale autant que logicielle.
+- **Tout projet de conception** : le protocole est volontairement agnostique au langage de code produit, et au domaine. Sa logique (problème -> système -> produit) sert pour de l'ingénierie globale autant que logicielle.
 
 # Objectif
 
