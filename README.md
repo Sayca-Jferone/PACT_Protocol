@@ -28,6 +28,7 @@ Le code devient une traduction d'un contrat existant, et non une exploration in-
 
 | Phase | Produit | Nature | Cadre | Utilité |
 |---|---|---|---|---|
+| O | Sujet / Étude de marché | Quand on vous fournit un sujet d'exercice, passez le au crible dans la Phase I. Sinon, passez-y votre sujet d'étude. |
 | I | `1-SYNTHESIS.md` | Explication corrigée du contexte avec to-do list intégrale | Abstrait | Référence de confiance selon versioning |
 | II | `2-SYSTEM.md` | Architecture intermédiaire entre le mental et le livrable | Formel | Division du temps de conception du système |
 | III | `Code` & `3-DEVNOTES.md` | Système consommable et notes in-dev optionnelles | Concret | Traduction du système en code informatique |
