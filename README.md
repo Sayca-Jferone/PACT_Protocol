@@ -4,7 +4,7 @@
 
 #### Version : v0.51 (27/04/2026 - Usage perso intensif)
 
-### Utilisation : Construire des logiciels sur des problèmes/sujets en apprentissage ou non-maîtrisés
+#### ⚠️ Déclenchement : À partir d'une complexité logicielle dont le travail sans ce protocole devient plus laborieux.
 
 ## Pour qui ?
 
