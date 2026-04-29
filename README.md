@@ -136,16 +136,16 @@ Chaque phase peut renvoyer à la précédente :
 
 ```
 
-Phase O  (Problème/Demande) <--- clarifier le sujet ---+
+Phase O  (Problème/Demande) <--- audit incohérences ---+
    |                                                   |
    v                                                   |
-Phase I  (Synthesis)        <--- clarifier le sujet ---+
+Phase I  (Synthèse)         <--- clarifier le sujet ---+
    |                                                   |
    v                                                   |
-Phase II (System)           <----- erreur logique -----+
+Phase II (ARCH. Logique)    <----- erreur logique -----+
    |                                                   |
    v                                                   |
-Phase III (Code & Debug) --------- erreur logique -----+
+Phase III (ARCH. Code)   --------- erreur syntaxe -----+
 ```
 
 Retourner en arrière n'est pas un échec. C'est le protocole qui filtre une mauvaise compréhension ou une mauvaise architecture au stade le moins coûteux.
