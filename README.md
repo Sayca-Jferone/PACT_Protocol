@@ -28,9 +28,9 @@ Le code devient une traduction d'un contrat existant, et non une exploration in-
 
 | Phase | Produit | Nature | Cadre | Utilité |
 |---|---|---|---|---|
-| O | Sujet / Marché | Quand on vous fournit un sujet d'exercice, passez le au crible dans la Phase I. Sinon, passez-y votre sujet d'étude. | Abstrait | Besoin brut de solution logicielle |
-| I | `1-SYNTHESIS.md` | Explication corrigée du contexte avec to-do list intégrale | Abstrait | Besoin corrigé, clair, épuré, avant de commencer à produire |
-| II | `2-SYSTEM.md` | Architecture intermédiaire entre le mental et le livrable | Formel | Division du temps de conception du système |
+| O | Sujet, Marché, Client | Quand on vous fournit un sujet, passez le au crible dans la Phase I afin d'épurer la requête. | Abstrait | Besoin brut de solution logicielle |
+| I | `1-SYNTHESIS.md` | La to-do-list, le comportement du produit. Explication corrigée du contexte avec to-do list intégrale | Abstrait | Besoin corrigé, clair, épuré, avant de commencer à produire |
+| II | `2-SYSTEM.md` | Architecture intermédiaire entre le mental et le livrable | Hybride | Division du temps de conception du système |
 | III | `Code` & `3-DEVNOTES.md` | Système consommable et notes in-dev optionnelles | Concret | Traduction du système en code informatique |
 
 ---
@@ -135,13 +135,17 @@ Ce dépôt de base suffit à lui-seul pour la rédaction d'un `README.md` final 
 Chaque phase peut renvoyer à la précédente :
 
 ```
-Phase I  (Synthesis)     <--- clarifier le sujet ---+
-   |                                                |
-   v                                                |
-Phase II (System)        <----- erreur logique -----+
-   |                                                |
-   v                                                |
-Phase III (Code & Debug) ------ erreur logique -----+
+
+Phase O  (Problème/Demande) <--- clarifier le sujet ---+
+   |                                                   |
+   v                                                   |
+Phase I  (Synthesis)        <--- clarifier le sujet ---+
+   |                                                   |
+   v                                                   |
+Phase II (System)           <----- erreur logique -----+
+   |                                                   |
+   v                                                   |
+Phase III (Code & Debug) --------- erreur logique -----+
 ```
 
 Retourner en arrière n'est pas un échec. C'est le protocole qui filtre une mauvaise compréhension ou une mauvaise architecture au stade le moins coûteux.
