@@ -1,20 +1,41 @@
-## Pipeline d'Architecture par Conception Tripartite (PACT)
+## Pipeline d'architecture par Conception tripartite (PACT)
 
-#### Auteur : Sayca (Jferone)
+#### Auteur : Sayca *(JFerone)*
 
-#### Version : v0.51 (27/04/2026 - Usage perso intensif)
+#### Version : v0.51.1 (29/04/2026)
 
-#### ⚠️ Déclenchement : À partir d'une complexité logicielle dont le travail sans ce protocole devient plus laborieux.
+#### ⚠️ Déclenchement¹ : Quand la complexité logicielle devient plus laborieuse sans ce protocole.
 
 ## Pour qui ?
 
 | | |
 |---|---|
-| Étudiants 42 | **VOTRE architecture**, pas celle d'un LLM lambda : c'est notre force, pas de vibe code, en vitesse accélérée. La densité des Phases I/II dépend de la complexité de votre sujet. |
-| Ingénieurs logiciels | Au-delà de vos maîtrises et expériences, vos projets en solo ou en petite équipe (1 à 5 pax) profitent d'un pipeline qui contracte I/II/III en une **architecture émergente, héritable et lisible**. |
-| Conception générale | Ce pipeline est volontairement agnostique au langage et au domaine. Sa logique sert pour de l'ingénierie globale, à expérimenter dans d'autres domaines que le logiciel. |
+| Étudiants 42 | **Idéal pour VOTRE architecture** renforcée, pas celle d'un LLM lambda. Pas de vibe code douteux qui surpasse notre propre capacité d'apprentissage. Ce protocole renforce par conception votre apprentissage accéléré.|
+| Ingénieurs logiciels | Au-delà de vos maîtrises et expériences, vos projets en solo ou en petite équipe (testé de 1 à 3) profitent d'un pipeline malléable, rétro-phasable en cas de problèmes inopinés in-code. |
+| Conception générale | Ce pipeline est volontairement agnostique au langage et au domaine. C'est la branche de lancement d'un pipeline logique en ingénierie globale, à expérimenter dans d'autres domaines que le logiciel. |
 
-# Objectif
+## Quand utiliser PACT ?
+
+```txt
+0. Phase I obligatoire : synthétiser et corriger le sujet (42, demande client, idée/concept). Se renforce avec les feedbacks I/II/III pour versions ultérieures.
+
+1. Nombre d'interfaces non triviales ?
+   Phase II
+   └─ <=1 → sauter la Phase II pour III
+   └─ 2-3 → schéma libre en ≈II
+   └─ >=4 → BIOPGE
+
+2. Ambiguïté du problème ?
+   └─ Nulle (spec complète) → descend d'un niveau
+   └─ Partielle → maintient le niveau
+   └─ Forte → monte d'un niveau + Phase I obligatoire
+
+3. Irréversibilité des décisions clés ?
+   └─ Faible → descend d'un niveau
+   └─ Forte → maintient ou monte
+```
+
+
 
 **Sur quoi ?** -> **Tous vos sujets. Pas d'over-engineering :** Un petit programme demandera quelques minutes de Phases I & II. Pour les plus complexes, on parle de jours, semaines ou mois.
 
