@@ -60,6 +60,8 @@ Le code devient une traduction d'un contrat existant, et non une exploration in-
 
 ### Phase I : Synthesis 📝
 
+- **Option avec assistant LLM:** Lancer une session de Questions-Réponses où le développeur doit répondre sur les `points de compréhension du sujet, ses compétences de développement à avoir dans le language concerné, points sensibles du sujet`.
+
 Lire le problème, le décomposer, et lister :
 
 - **1. Formats (F-XX)** : langage, normes, contraintes, livrables.
