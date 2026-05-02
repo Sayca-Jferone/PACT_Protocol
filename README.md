@@ -1,20 +1,20 @@
-## Pipeline d'architecture par Conception tripartite (PACT)
+# "PACT: Beyond the Code" - Software Engineering
 
-#### Auteur : Sayca *(JFerone)*
+#### Version : v0.51.2 (03/05/2026)
 
-#### Version : v0.51.1 (29/04/2026)
+Un architecte système n'est pas payé pour sa capacité à écrire du code sur un clavier. Il est reconnu pour sa capacité à concevoir un système **à coder**, la nuance.
 
-#### ⚠️ Déclenchement¹ : Quand la complexité logicielle devient plus laborieuse sans ce protocole.
+Le coût réel n'est plus le temps à écrire du code, mais bien celui de débuguer sans référentiel, à déconstruire sans architecture, à repartir de zéro sans avoir compris pourquoi...
 
-## Pour qui ?
+## QUI devrait utiliser PACT ?
 
 | | |
 |---|---|
-| Étudiants 42 | **Idéal pour VOTRE architecture** renforcée, pas celle d'un LLM lambda. Pas de vibe code douteux qui surpasse notre propre capacité d'apprentissage. Ce protocole renforce par conception votre apprentissage accéléré.|
-| Ingénieurs logiciels | Au-delà de vos maîtrises et expériences, vos projets en solo ou en petite équipe (testé de 1 à 3) profitent d'un pipeline malléable, rétro-phasable en cas de problèmes inopinés in-code. |
-| Conception générale | Ce pipeline est volontairement agnostique au langage et au domaine. C'est la branche de lancement d'un pipeline logique en ingénierie globale, à expérimenter dans d'autres domaines que le logiciel. |
+| Étudiants 42 | Le pari est de **"ne jamais retravailler deux fois la même chose"**. On sauve le temps, la clarté, les compétences acquises et la capacité à raisonner plus complexe. |
+| Ingénieurs logiciels | Au-delà de vos maîtrises et expériences, vos projets en solo & petites équipes (testé de 1 à 3) profitent d'un pipeline malléable, rétro-phasable en cas de problèmes inopinés en fonctionnement. |
+| Conception générale | Ce pipeline est fondamentalement agnostique au langage et au domaine. C'est la branche de lancement d'un pipeline logique en ingénierie globale, à expérimenter dans d'autres domaines que le logiciel. |
 
-## Quand utiliser PACT ?
+## QUAND utiliser PACT ?
 
 ```txt
 0. Phase I obligatoire : synthétiser et corriger le sujet (42, demande client, idée/concept). Se renforce avec les feedbacks I/II/III pour versions ultérieures.
@@ -35,7 +35,9 @@
    └─ Forte → maintient ou monte
 ```
 
+## QU'EST-CE que PACT ?
 
+### Un fiabilisateur cognitif. Plus de temps en Phase I-II pour économiser en Phase III
 
 **Sur quoi ?** -> **Tous vos sujets. Pas d'over-engineering :** Un petit programme demandera quelques minutes de Phases I & II. Pour les plus complexes, on parle de jours, semaines ou mois.
 
@@ -50,15 +52,15 @@ Le code devient une traduction d'un contrat existant, et non une exploration in-
 | Phase | Produit | Nature | Cadre | Utilité |
 |---|---|---|---|---|
 | O | Sujet, Marché, Client | Quand on vous fournit un sujet, passez le au crible dans la Phase I afin d'épurer la requête. | Abstrait | Besoin brut de solution logicielle |
-| I | `1-SYNTHESIS.md` | La to-do-list, le comportement du produit. Explication corrigée du contexte avec to-do list intégrale | Abstrait | Besoin corrigé, clair, épuré, avant de commencer à produire |
-| II | `2-SYSTEM.md` | Architecture intermédiaire entre le mental et le livrable | Hybride | Division du temps de conception du système |
-| III | `Code` & `3-DEVNOTES.md` | Système consommable et notes in-dev optionnelles | Concret | Traduction du système en code informatique |
+| I | `1-CheckList.md` | La to-do-list, le comportement du produit. Explication corrigée du contexte avec to-do list intégrale | Formel | Besoin corrigé, clair, épuré, comportements listés |
+| II | `2-Architecture.md` | Architecture intermédiaire entre le mental et le livrable | Formel | Débugguer des blocs logiques, pas des blocs codés |
+| III | `3-DebugNotes.md` & `livrable` | Système consommable et notes in-dev optionnelles | Concret | Traduire la logique débugguée en code à debug en environnement réel |
 
 ---
 
 ## Les 3 phases
 
-### Phase I : Synthesis 📝
+### Phase I : Check List 📝
 
 - **Option avec assistant LLM:** Lancer une session de Questions-Réponses où le développeur doit répondre sur les `points de compréhension du sujet, ses compétences de développement à avoir dans le language concerné, points sensibles du sujet`.
 
@@ -74,7 +76,7 @@ Sortie : `1-SYNTHESIS.md`. Une to-do list avec cases à cocher, dense, lisible e
 
 Si le client change souvent d'avis, si la version d'un système par conception doit changer, ça se fait ici. Ensuite, on propage sur Phase II, puis on implémente en Phase III.
 
-### Phase II : System 📐
+### Phase II : Architecture 📐
 
 **Avant d'écrire la première ligne de code**, chaque fichier reçoit un **bloc BIOPGE** (Boundary-Inputs-Outputs-Process-Guarantees-Errors)
 
@@ -95,7 +97,7 @@ Si le client change souvent d'avis, si la version d'un système par conception d
 | **Errors** | Chaque mode d'échec, son déclencheur, son comportement. |
 ```
 
-Sortie : `2-SYSTEM.md`. Un tableau de cette forme par bloc-fichier, possible de l'étendre en sous-parties selon votre volonté, si utile.
+Sortie : `2-Architecture.md`. Un tableau de cette forme par bloc-fichier, possible de l'étendre en sous-parties selon votre volonté, si utile.
 
 **Règle : pas de code tant que le bloc BIOPGE concerné n'est pas défini. Même défaillant, on peut sortir du code pour corriger la logique BIOPGE, et revenir.**
 
@@ -130,7 +132,7 @@ Cette distinction est la règle critique de Phase III. La confondre, c'est accum
 
 Sortie : un produit quelconque, du code auditable, où chaque fonction trace jusqu'à un bloc BIOPGE Phase II, la synthèse Phase I est cochée en intégralité.
 
-`3-DEVNOTES.md` est le journal optionnel du développeur, mis à jour au fil de l'eau : décisions non triviales, ressources consultées, retroactivités. Il complète les commits git, il ne les remplace pas.
+`3-DebugNotes.md` est le journal optionnel du développeur, mis à jour au fil de l'eau : décisions non triviales, ressources consultées, retroactivités. Il complète les commits git, il ne les remplace pas.
 
 ---
 
@@ -142,11 +144,12 @@ Sortie : un produit quelconque, du code auditable, où chaque fonction trace jus
 [livrables]
 src/
 	[code source]
-doc/
-	1-SYNTHESIS.md			# le problème lisible en 60 secondes
-	2-SYSTEM.md				# le contrat d'architecture lisible par tout auditeur
-	3-DEVNOTES.md			# le journal du développeur, feedbacks optionnels de code/debug
-	[ex: schéma Phase II, ...]
+docs/devnotes/
+              0-Subject.pdf       # exemple d'une ressource client
+              1-CheckList.md      # le problème lisible en 60 secondes
+              2-Architecture.md   # le contrat d'architecture lisible et traductible en code corrigé
+              3-DebugNotes.md     # le journal du développeur, feedbacks optionnels de code/debug
+              [schémas, ...]
 ```
 
 Ce dépôt de base suffit à lui-seul pour la rédaction d'un `README.md` final cohérent (utile pour les rendus inspectés ou tout dépôt public).
@@ -159,16 +162,16 @@ Chaque phase peut renvoyer à la précédente :
 
 ```
 
-Phase O  (Problème/Demande) <--- audit incohérences ---+
+Phase O  (Problème/Demande) <----- audit si flou ------+  <( Consommateur de la Solution Système
    |                                                   |
    v                                                   |
-Phase I  (Synthèse)         <--- clarifier le sujet ---+
+Phase I  (Check List)       <--- clarifier le sujet ---+  <( Référentiel: normes/forme/comportements
    |                                                   |
    v                                                   |
-Phase II (ARCH. Logique)    <----- erreur logique -----+
+Phase II (ARCH. Logique)    <----- erreur logique -----+  <( Debug de la qualité du système
    |                                                   |
    v                                                   |
-Phase III (ARCH. Code)   --------- erreur syntaxe -----+
+Phase III (ARCH. Codée)     ------ erreur syntaxe -----+  <( Debug du Support Sys. (software/hardware)
 ```
 
 Retourner en arrière n'est pas un échec. C'est le protocole qui filtre une mauvaise compréhension ou une mauvaise architecture au stade le moins coûteux.
@@ -177,7 +180,7 @@ Retourner en arrière n'est pas un échec. C'est le protocole qui filtre une mau
 
 ## Comment l'utiliser
 
-1. Copier les templates de `1-SYNTHESIS.md` et `2-SYSTEM.md` à la racine du projet (ou dans `docs/`).
+1. Copier les templates de `1-CheckList.md` et `2-Architecture.md` à la racine du projet (ou dans `docs/devnotes/`).
 2. Faire la Phase I jusqu'à ce qu'aucune question ouverte ne puisse invalider l'architecture.
 3. Remplir chaque bloc BIOPGE en Phase II. Valider avant tout code.
 4. Coder en Phase III. Ne retourner en Phase II que sur erreur logique.
@@ -197,43 +200,6 @@ PACT converge avec trois standards/méthodes déjà établies, dont j'ai découv
 | **Spec-Driven Development** (GitHub Spec-Kit, 2024-2025) | LLM-assisted coding | **Séparation spec → plan → code** en markdown ; source de vérité = spécification ; phase de synthèse en amont | SDD cible agents LLM + workflow itératif ; PACT est agnostique agent et impose contrainte d'ordre strict (I → II → III) |
 
 La convergence est réelle. Les racines : DbC (contrats), arc42 (format pratique), SDD (phase conceptuelle → exécution).
-
-
----
-
-### OPTIONS AVANCÉES
-
-<details>
-<summary>Référence: Unités du Système épistémique PACT</summary>
-
-**Ne concerne pas le développement logiciel classique.** -> Destiné uniquement aux modèles de performances cognitives et de meta-engineering sur systèmes en développement et/ou existants.
-
-| Unité | Indice | Domaine mathématique | Forme | Nature |
-|---|---|---|---|---|
-| Précision de concept | φ | [0, 1] | Scalaire continu | Mesure l'avancement Phase I -> de l'idée au **concept** à faible granularité |
-| Cohérence d'architecture | σ | [0, 1] | Scalaire continu | Mesure l'avancement Phase II -> du **concept** au **contrat** BIOPGE complet |
-| Complétude d'implémentation | γ | [0, 1] | Scalaire continu | Mesure l'avancement Phase III -> du **contrat** au **produit** fonctionnel testé |
-| État épistémique du projet | Ψ | [0,1]³ | Vecteur (φ, σ, γ) | Représentation interne honnête -> position dans l'espace PACT |
-| Variation épistémique | ΔΨ | ℝ³ | Vecteur différentiel | Gain de précision entre deux états Ψ(t₁) → Ψ(t₂) |
-| Profil de domaine | 𝒫 | ℕ³ sous contrainte | Triplet de poids (Wφ, Wσ, Wγ) avec Wφ+Wσ+Wγ = 100 | Paramètre domaine-dépendant -> encode où se concentre le risque |
-| Indice de Granularité | IG | [0, 100] | Scalaire -> projection de Ψ pondérée par 𝒫 | Interface publique lisible -> `(φ·Wφ + σ·Wσ + γ·Wγ)` |
-
-**Contrainte d'ordre partiel sur Ψ** (invariant PACT) :
-
-```
- φ > 0  ->  lancement  (I : on synthétise le contexte  ->  donne le Concept)
- σ > 0  ->  φ ≥ θ₁     (II : on ne contracte pas sans concept  ->  donne le Contrat)
- γ > 0  ->  σ ≥ θ₂     (III : on n'implémente pas sans contrat  ->  donne le Livrable)
-```
-
-Références génériques de PACT v0.5, à varier possiblement selon les résultats du domaine d'ingénierie concerné.
-
-> θ₁ = 0.7 comme seuil Phase I -> II : concept suffisant, rétroactivité II -> I tolérée et bon marché
-
-> θ₂ = 0.9 comme seuil Phase II -> III : contrat quasi-parfait exigé, rétroactivité III -> II coûteuse
-
-> Validé (27/04/2026) : Conclusion d'audit par Sayca + Claude Sonnet 4.6 & Opus 4.7 sur tous les programmes de Sayca (plus solo/2-peers subjects done from 42next)
-</details>
 
 ---
 
