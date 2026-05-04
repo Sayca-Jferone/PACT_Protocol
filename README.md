@@ -2,7 +2,7 @@
 
 #### Version : v0.51.2 (03/05/2026)
 
-Un architecte système n'est pas payé pour sa capacité à écrire du code sur un clavier. Il est reconnu pour sa capacité à concevoir un système **à coder*. Nuance.
+Un architecte système n'est pas payé pour sa capacité à écrire du code sur un clavier. Il est reconnu pour sa capacité à concevoir un système **à coder**. Nuance.
 
 Le coût réel n'est plus le temps à écrire du code, mais bien celui de débuguer sans référentiel, à déconstruire sans architecture, à repartir de zéro sans avoir compris pourquoi...
 
