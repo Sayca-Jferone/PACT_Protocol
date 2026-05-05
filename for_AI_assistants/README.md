@@ -1,4 +1,4 @@
-# "PACT: Beyond the Code" - Software Engineering
+# For your artificial co-workers
 
 #### "Keys & skills" folders for your AIs of any type
 

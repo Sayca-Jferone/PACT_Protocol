@@ -1,6 +1,6 @@
 # PACT — Programmation par Architecture Contractuellement Typée
 
-#### Version : v0.51.2 (03/05/2026)
+#### Version : v0.51.3 (05/05/2026)
 
 Avec ou sans LLM, le coût réel n'est plus le temps à écrire ce code, mais bien celui de concevoir et débuguer sans référentiel, à déconstruire sans architecture, à re/partir de zéro sans avoir éliminé le flou et identifié les failles de conception les plus fines.
 
@@ -12,7 +12,9 @@ Avec ou sans LLM, le coût réel n'est plus le temps à écrire ce code, mais bi
 | Ingénieurs logiciels | Au-delà de vos maîtrises et expériences, vos projets en solo & petites équipes (testé de 1 à 3) profitent d'un pipeline malléable, rétro-phasable en cas de problèmes inopinés en fonctionnement. |
 | Conception générale | Ce pipeline est fondamentalement agnostique au langage et au domaine. C'est la branche de lancement d'un pipeline logique en ingénierie globale, à expérimenter dans d'autres domaines que le logiciel. |
 
-### Valable avec ET sans assistant IA
+### Apprentissage procédurier & Capacité à produire
+
+![Disclaimer sur les assistants artificiels](assets/disclaimer.png)
 
 ## QUAND utiliser PACT ?
 
