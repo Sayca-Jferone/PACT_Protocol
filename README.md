@@ -1,10 +1,8 @@
-# "PACT: Beyond the Code" - Software Engineering
+# PACT — Programmation par Architecture Contractuellement Typée
 
 #### Version : v0.51.2 (03/05/2026)
 
-Un développeur n'est plus payé pour sa capacité à taper du code sur un clavier. Il est reconnu pour sa capacité à concevoir un **système de qualité à coder**, et à décoder aisément.
-
-Avec ou sans LLM, le coût réel n'est plus le temps à écrire ce code, mais bien celui de débuguer sans référentiel, à re/dé/construire sans architecture, à re/partir de zéro sans avoir éliminé le flou et identifié les failles de conception.
+Avec ou sans LLM, le coût réel n'est plus le temps à écrire ce code, mais bien celui de concevoir et débuguer sans référentiel, à déconstruire sans architecture, à re/partir de zéro sans avoir éliminé le flou et identifié les failles de conception les plus fines.
 
 ## QUI devrait utiliser PACT ?
 
