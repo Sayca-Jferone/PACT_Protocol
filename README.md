@@ -2,9 +2,9 @@
 
 #### Version : v0.51.2 (03/05/2026)
 
-Un architecte système n'est pas payé pour sa capacité à écrire du code sur un clavier. Il est reconnu pour sa capacité à concevoir un système **à coder**. Nuance.
+Un architecte système n'est pas seulement payé pour sa capacité à taper du code sur un clavier. Il est reconnu pour sa capacité à concevoir un **système de qualité, à coder ou encoder**.
 
-Le coût réel n'est plus le temps à écrire du code, mais bien celui de débuguer sans référentiel, à déconstruire sans architecture, à repartir de zéro sans avoir compris pourquoi...
+Avec ou sans LLM, le coût réel n'est plus le temps à écrire ce code, mais bien celui de débuguer sans référentiel, à re/dé/construire sans architecture, à re/partir de zéro sans avoir éliminé le flou et identifié les failles de conception.
 
 ## QUI devrait utiliser PACT ?
 
@@ -13,6 +13,8 @@ Le coût réel n'est plus le temps à écrire du code, mais bien celui de débug
 | Étudiants 42 | Le pari est de **"ne jamais retravailler deux fois la même chose"**. On sauve le temps, la clarté, les compétences acquises et la capacité à raisonner plus complexe. |
 | Ingénieurs logiciels | Au-delà de vos maîtrises et expériences, vos projets en solo & petites équipes (testé de 1 à 3) profitent d'un pipeline malléable, rétro-phasable en cas de problèmes inopinés en fonctionnement. |
 | Conception générale | Ce pipeline est fondamentalement agnostique au langage et au domaine. C'est la branche de lancement d'un pipeline logique en ingénierie globale, à expérimenter dans d'autres domaines que le logiciel. |
+
+### Valable avec ET sans assistant IA
 
 ## QUAND utiliser PACT ?
 
