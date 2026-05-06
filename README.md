@@ -10,7 +10,7 @@ Avec ou sans LLM, le coût réel n'est plus le temps à écrire ce code, mais bi
 |---|---|
 | Étudiants 42 | Le pari est de **"ne jamais retravailler deux fois la même chose"**. On sauve le temps, la clarté, les compétences acquises et la capacité à raisonner plus complexe. |
 | Ingénieurs logiciels | Au-delà de vos maîtrises et expériences, vos projets en solo & petites équipes (testé de 1 à 3) profitent d'un pipeline malléable, rétro-phasable en cas de problèmes inopinés en fonctionnement. |
-| Conception générale | Ce pipeline est fondamentalement agnostique au langage et au domaine. C'est la branche de lancement d'un pipeline logique en ingénierie globale, à expérimenter dans d'autres domaines que le logiciel. |
+| Ingénierie globale (tests) | Ce pipeline est fondamentalement agnostique au langage et au domaine. Il est ouvert aux concepteurs dont le domaine diverge du développement logiciel (ex: Business planes, cognitive archs, ...). |
 
 ### Apprentissage procédurier & Capacité à produire
 
