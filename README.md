@@ -1,8 +1,10 @@
-# PACT — Programmation par Architecture Contractuellement Typée
+# PACT — Production par Architecture Contractuelle et Tracée
 
-#### Version : v0.51.3 (05/05/2026)
+### Version "IT Systems & Software Engineering"
 
-Avec ou sans LLM, le coût réel n'est plus le temps à écrire ce code, mais bien celui de concevoir et débuguer sans référentiel, à déconstruire sans architecture, à re/partir de zéro sans avoir éliminé le flou et identifié les failles de conception les plus fines.
+#### Update : v0.51.5 (09/05/2026)
+
+Avec ou sans LLM, le coût réel n'est plus le temps à écrire du code, mais bien celui de concevoir et débuguer une solution sans référentiel, à déconstruire sans architecture, à re/partir de zéro sans avoir éliminé le flou et identifié les failles de conception.
 
 ## QUI devrait utiliser PACT ?
 
@@ -53,10 +55,10 @@ Le code devient une traduction d'un contrat existant, et non une exploration in-
 
 | Phase | Produit | Nature | Cadre | Utilité |
 |---|---|---|---|---|
-| O | Sujet, Marché, Client | Quand on vous fournit un sujet, passez le au crible dans la Phase I afin d'épurer la requête. | Abstrait | Besoin brut de solution logicielle |
+| O | Sujet, Marché, Demande | Quand on vous fournit un sujet, passez le au crible dans la Phase I afin d'épurer la requête. | Abstrait | Besoin brut de solution logicielle |
 | I | `1-CheckList.md` | La to-do-list, le comportement du produit. Explication corrigée du contexte avec to-do list intégrale | Formel | Besoin corrigé, clair, épuré, comportements listés |
 | II | `2-Architecture.md` | Architecture intermédiaire entre le mental et le livrable | Formel | Débugguer des blocs logiques, pas des blocs codés |
-| III | `3-DebugNotes.md` & `livrable` | Système consommable et notes in-dev optionnelles | Concret | Traduire la logique débugguée en code à debug en environnement réel |
+| III | `3-DebugNotes.md` & `système en marche` | Système consommable et notes in-dev optionnelles | Concret | Traduire la logique débugguée en code à debug en environnement réel |
 
 ---
 
