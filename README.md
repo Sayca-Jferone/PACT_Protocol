@@ -21,20 +21,20 @@ Avec ou sans LLM, le coût réel n'est plus le temps à écrire du code, mais bi
 ## QUAND utiliser PACT ?
 
 ```txt
-0. Phase I obligatoire : synthétiser et corriger le sujet (42, demande client, idée/concept). Se renforce avec les feedbacks I/II/III pour versions ultérieures.
+A - Phase I obligatoire : synthétiser et corriger le sujet (42, demande client, idée/concept). Se renforce avec les feedbacks I/II/III pour versions ultérieures.
 
-1. Nombre d'interfaces non triviales ?
+B - Nombre d'interfaces non triviales ?
    Phase II
    └─ <=1 → sauter la Phase II pour III
    └─ 2-3 → schéma libre en ≈II
    └─ >=4 → BIOPGE
 
-2. Ambiguïté du problème ?
+C - Ambiguïté du problème ?
    └─ Nulle (spec complète) → descend d'un niveau
    └─ Partielle → maintient le niveau
    └─ Forte → monte d'un niveau + Phase I obligatoire
 
-3. Irréversibilité des décisions clés ?
+D - Irréversibilité des décisions clés ?
    └─ Faible → descend d'un niveau
    └─ Forte → maintient ou monte
 ```
