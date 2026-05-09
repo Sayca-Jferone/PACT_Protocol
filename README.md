@@ -1,8 +1,6 @@
-# PACT — Production par Architecture Contractuelle et Tracée
+# Programmation par Architecture Contractuelle Traçable
 
-### Version "IT Systems & Software Engineering"
-
-#### Update : v0.51.5 (09/05/2026)
+#### Update : v0.52 (09/05/2026)
 
 Avec ou sans LLM, le coût réel n'est plus le temps à écrire du code, mais bien celui de concevoir et débuguer une solution sans référentiel, à déconstruire sans architecture, à re/partir de zéro sans avoir éliminé le flou et identifié les failles de conception.
 
